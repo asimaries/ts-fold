@@ -16,7 +16,9 @@ export const package_json = {
     tsup: "^8",
     typescript: "^5",
   },
-  dependencies: {},
+  dependencies: {
+    dotenv: "^16",
+  },
 };
 
 export const tsconfig_json = {

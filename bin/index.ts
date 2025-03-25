@@ -32,6 +32,13 @@ async function main() {
     new Uint8Array(Buffer.from(JSON.stringify(prettierrc, null, 2))),
     { flush: true }
   );
+  await fs.writeFile(
+    "./.env",
+    new Uint8Array(Buffer.from("NODE_ENV=development")),
+    {
+      flush: true,
+    }
+  );
 }
 
 main()

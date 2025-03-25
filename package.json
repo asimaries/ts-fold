@@ -1,6 +1,6 @@
 {
   "name": "@asimaries/ts-fold",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "bin": {
     "ts-fold": "dist/index.js"
@@ -18,5 +18,8 @@
     "@types/node": "^22.13.9",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
